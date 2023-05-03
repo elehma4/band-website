@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+.fullView{
+    height: 100vh;
+}
+.bg-img{
+    background: url('/images/odesza-main-bg.jpg') no-repeat center center fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+.nav{
+    position: fixed;
+    z-index: 9999;
+    background-color: black;
+    width: 100vw;
+    height: 77.5px;
+}
+.navbar-brand{
+    width: 50%;
+}
+.nav-logo{
+    padding-left: 10px;
+    width: 200px;
+}
+.wholeNav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+}
+.navbar-nav{
+    width: 37%;
+    position: fixed;
+    right: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.active{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    text-transform: uppercase;
+}
+.footer{
+    width: 100%;
+    height: 47px;
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

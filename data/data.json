@@ -4,9 +4,9 @@
         "name": "ODESZA",
         "shortName": "the-last-goodbye",
         "albumName": "The Last Goodbye",
-        "summary": "A project rife with brightness and emotion, nostalgic yet rooted in the present, the GRAMMY-nominated duo’s ‘The Last Goodbye’ serves as a sweeping sonic experience that speaks to connection, reminiscence and the impact we impart on one another. It’s a vivid celebration of the people and moments that have left fingerprints on our existence, echoing throughout the record. As the duo’s most personal record to date, it’s a brilliant collection which looks to interweave the past and the present in a euphoric way.",
-        "artwork": "",
-        "tracklist": ["1. This Version Of You (feat. Julianna Barwick) - 2:51", "2. Wide Awake (feat. Charlie Houston) - 3:35", "3. Love Letter (feat. The Knocks) - 4:13", "4. Behind The Sun - 4:10", "5. Forgive Me (feat. Izzy Bizu) - 3:28", "6. North Garden - 3:00", "7. Better Now (feat. MARO) - 3:14", "8. The Last Goodbye (feat. Bettye LaVette) - 5:58", "9. All My Life - 3:12", "10. Equal (feat. Lapsley) - 3:53", "11. Healing Grid - 3:06", "12. I Can't Sleep - 3:07", "13. Light Of Day (feat. Olafur Arnalds) - 6:40"],
+        "summary": "A project rife with brightness and emotion, nostalgic yet rooted in the present, the GRAMMY-nominated duo’s ‘The Last Goodbye’ serves as a sweeping sonic experience that speaks to connection, reminiscence and the impact we impart on one another. It’s a vivid celebration of the people and moments that have left fingerprints on our existence, echoing throughout the record. It’s a brilliant collection which looks to interweave the past and the present in a euphoric way.",
+        "artwork": ["/images/thelastgoodbye.webp"],
+        "tracklist": ["1. This Version Of You (feat. Julianna Barwick) - 2:51", " 2. Wide Awake (feat. Charlie Houston) - 3:35", " 3. Love Letter (feat. The Knocks) - 4:13", " 4. Behind The Sun - 4:10", " 5. Forgive Me (feat. Izzy Bizu) - 3:28", " 6. North Garden - 3:00", " 7. Better Now (feat. MARO) - 3:14", " 8. The Last Goodbye (feat. Bettye LaVette) - 5:58", " 9. All My Life - 3:12", " 10. Equal (feat. Lapsley) - 3:53", " 11. Healing Grid - 3:06", " 12. I Can't Sleep - 3:07", " 13. Light Of Day (feat. Olafur Arnalds) - 6:40"],
         "spotify": "https://open.spotify.com/album/0xVucRYJf5luWLekMGYh3i?si=Xm03YWp-RRaLo6a41j90Aw"
     },
     {
@@ -14,8 +14,8 @@
         "shortName": "a-moment-apart",
         "albumName": "A Moment Apart",
         "summary": "A Moment Apart is, at its core, an album about growth, maturity and perspective gained through hard-earned experience. From more than 50 written song, it was whittled down to 16 expansive anthems — each an emotional journey of epic proportions exploring humanity’s intimate moments expressed through glorious chords and layers of textured beats.",
-        "artwork": "",
-        "tracklist": ["1. Intro - 1:31", "2. A Moment Apart - 3:55", "3. Higher Ground (feat. Naomi Wild) - 3:34", "4. Boy - 3:05", "5. Line Of Sight (feat. WYNNE & Mansionair) - 3:57", "6. Late Night - 3:39", "7. Across The Room (feat. Leon Bridges) - 4:43", "8. Meridian - 3:59", "9. Everything At Your Feet (feat. The Chamanas) - 3:33", "10. Just A Memory (feat. Regina Spektor) - 4:07", "11. Divide (feat. Kelsey Bulkin) - 3:46", "12. Thin Floors And Tall Ceilings - 3:12", "13. La Ciudad - 4:23", "14. Falls (feat. Sasha Sloan) - 3:57", "15. Show Me - 4:03", "16. Corners Of The Earth (feat. RY X) - 5:03"],
+        "artwork": ["/images/amomentapart.webp"],
+        "tracklist": ["1. Intro - 1:31", " 2. A Moment Apart - 3:55", " 3. Higher Ground (feat. Naomi Wild) - 3:34", " 4. Boy - 3:05", " 5. Line Of Sight (feat. WYNNE & Mansionair) - 3:57", " 6. Late Night - 3:39", " 7. Across The Room (feat. Leon Bridges) - 4:43", " 8. Meridian - 3:59", " 9. Everything At Your Feet (feat. The Chamanas) - 3:33", " 10. Just A Memory (feat. Regina Spektor) - 4:07", " 11. Divide (feat. Kelsey Bulkin) - 3:46", " 12. Thin Floors And Tall Ceilings - 3:12", " 13. La Ciudad - 4:23", " 14. Falls (feat. Sasha Sloan) - 3:57", " 15. Show Me - 4:03", " 16. Corners Of The Earth (feat. RY X) - 5:03"],
         "spotify": "https://open.spotify.com/album/3VzsvmhnUb9OZ59bq2aoNZ?si=85LlESADSP28o9PyTSXRKQ"
     },
     {
@@ -23,8 +23,8 @@
         "shortName": "in-return",
         "albumName": "In Return",
         "summary": "In Return is a well-crafted album that showcases ODESZA's unique style and ability to blend electronic and acoustic elements seamlessly. The album received critical acclaim upon its release and remains a fan favorite in the electronic music scene. This is the second studio album by the electronic music duo ODESZA. The album features a unique blend of electronic and acoustic sounds, combining elements of downtempo, future bass, and indie dance music.",
-        "artwork": "",
-        "tracklist": ["1. Always This Late - 2:41", "2. Say My Name (feat. Zyra) - 4:23", "3. Bloom - 3:15", "4. All We Need (feat. Shy Girls) - 3:31", "5. Sundara - 3:44", "6. White Lies (feat. Zyra) - 4:36", "7. Kusanagi - 4:13", "8. Echoes (feat. Py) - 4:56", "9. It's Only (feat. Zyra) - 4:28", "10. Koto - 3:34", "11. Memories That You Call (feat. Monsoonsiren) - 4:08", "12. Sun Models (feat. Madelyn Grant) - 2:40", "13. For Us (feat. Briana Marela) - 4:26","14. Open Wound (feat. Leon Bridges) - 3:57"],
+        "artwork": ["/images/inreturn.jpg"],
+        "tracklist": ["1. Always This Late - 2:41", " 2. Say My Name (feat. Zyra) - 4:23", " 3. Bloom - 3:15", " 4. All We Need (feat. Shy Girls) - 3:31", " 5. Sundara - 3:44", " 6. White Lies (feat. Zyra) - 4:36", " 7. Kusanagi - 4:13", " 8. Echoes (feat. Py) - 4:56", " 9. It's Only (feat. Zyra) - 4:28", " 10. Koto - 3:34", " 11. Memories That You Call (feat. Monsoonsiren) - 4:08", " 12. Sun Models (feat. Madelyn Grant) - 2:40", " 13. For Us (feat. Briana Marela) - 4:26"," 14. Open Wound (feat. Leon Bridges) - 3:57"],
         "spotify": "https://open.spotify.com/album/5SXT6dwhHX56Sos7KMcMF5?si=dEmzjjSISRKlvdttG3ABgA"
     },
     {
@@ -32,8 +32,8 @@
         "shortName": "summer's-gone",
         "albumName": "Summer's Gone",
         "summary": "Summer's Gone is a strong debut album from ODESZA that showcases their knack for crafting immersive and emotive soundscapes, with a focus on atmospheric textures and mellow melodies. While the album lacks the energy and diversity of their later releases, it serves as a solid introduction to their distinctive style and has earned a loyal following among fans of downtempo and chillout music.",
-        "artwork": "",
-        "tracklist": ["1. Intro - 3:24", "2. How Did I Get Here - 2:00", "3. I Want You - 4:15", "4. Above the Middle - 2:34", "5. We Were Young - 4:33", "6. Today - 4:21", "7. Tuytus - 4:31", "8. Rely - 4:10", "9. Hey Now - 3:59", "10. If You Don't (feat. Jenni Potts) - 5:05", "11. Don't Stop - 2:52", "12. IPlayYouListen - 3:51","13. DONT STOP (Version) - 2:31"],
+        "artwork": ["/images/summer'sgone.jpg"],
+        "tracklist": ["1. Intro - 3:24", " 2. How Did I Get Here - 2:00", " 3. I Want You - 4:15", " 4. Above the Middle - 2:34", " 5. We Were Young - 4:33", " 6. Today - 4:21", " 7. Tuytus - 4:31", " 8. Rely - 4:10", " 9. Hey Now - 3:59", " 10. If You Don't (feat. Jenni Potts) - 5:05", " 11. Don't Stop - 2:52", " 12. IPlayYouListen - 3:51"," 13. DONT STOP (Version) - 2:31"],
         "spotify": "https://open.spotify.com/album/0ebTxbNe07spVPn7uxKOb1?si=elqUxUK9TxynbZdcyVJ5IA"
     }
 ]

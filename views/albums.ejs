@@ -4,13 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.min.js" integrity="sha384-...the rest of the integrity value..." crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <title>ALBUMS</title>
+    <link rel="icon" href="/images/odesza-browser-icon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/albums.css">
 
-    
-    <title>Studio Albums</title>
 </head>
 <body>
+    <div class="container-fluid fullView">
+
+        <div class="bg-img"></div>
+
+        <div class="nav navbar-fixed-top">
+            <div class="container-fluid wholeNav">
+                <div class="navbar-brand">
+                    <a href="/"><img class="nav-logo" src="/images/odesza-logo.png" alt=""></a>
+                </div>
+                
+                <div class="navbar-nav">
+                      <div class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                      </div>
+                      <div class="nav-item">
+                        <a class="nav-link active" href="/albums">Albums</a>
+                      </div>
+                      <div class="nav-item">
+                        <a class="nav-link active" href="">Listen</a>
+                      </div>
+                      <div class="nav-item">
+                        <a class="nav-link active" href="">Forums</a>
+                      </div>        
+                    </div>
+            </div>
+        </div>
+
+         <!-- Content -->
+
+         <div class="content-main">
+
+            <% albums.forEach(albumObj => { %>
+
+                <div class="albums">
+                    <div class="albummain">
+                        <div class="title">
+                            <%= albumObj.albumName %> 
+                        </div>
+                        <img class="albumcovers" src="<%=albumObj.artwork[0]%>" alt="">
+
+                    </div>
+                    
+                    <div class="albumContent">
+                        <% albumObj.tracklist.forEach(track => { %>
+                            <div><%= track %> </div>
+                        <% }) %>     
+                        <hr>
+                        <div class="summary"><%= albumObj.summary %> </div>
+                    </div>
+
+                </div>
+
+            <% }) %>
+
+
+         </div>   
+
+         <!-- Footer -->
+            <footer class="container-fluid footer">
+                    <p>&copy; 2023 ODESZA. All rights reserved.</p>
+            </footer>
+        <!-- End of Footer -->
+
+    </div>
     
 </body>
 </html>
