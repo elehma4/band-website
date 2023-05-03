@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+.fullView{
+    height: 100vh;
+}
+.nav{
+    position: fixed;
+    z-index: 100;
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+}
+.navbar-brand{
+    width: 50%;
+}
+.nav-logo{
+    padding-left: 10px;
+    width: 250px;
+}
+.wholeNav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.navbar-nav{
+    padding-left: 157px;
+    padding-right: 57px;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.active{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.fullscreen-bg{
+    position: relative;
+    top: 100px;
+    left: 0;
+    height: calc(100vh - 11%);
+    width: 100vw;
+    background-size: cover;
+}
+.bg-img{
+    width: 100vw;
+    height: 100%;
+}
+
+
+
+
+/* background: url('/images/odesza-bg-image.jpg') no-repeat center center fixed;
+background-size: cover; */
