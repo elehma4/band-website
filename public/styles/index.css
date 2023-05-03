@@ -31,11 +31,12 @@ body{
     display: flex;
     flex-direction: row;
     width: 100vw;
+    align-items: center;
 }
 .navbar-nav{
-    padding-left: 157px;
-    padding-right: 47px;
     width: 37%;
+    position: fixed;
+    right: 37px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
