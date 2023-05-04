@@ -41,6 +41,7 @@ const updateFeedback = (messagesArr) => {
         htmlBlock += '        <div class="name-from-data">' + item.name + '</div>';
         htmlBlock += '        <div class="separator"> - </div>';
         htmlBlock += '        <div class="title-from-data">' + item.title + '</div>';
+        htmlBlock += '      <div class="close-btn">&times;</div>';
         htmlBlock += '      </div>';
         htmlBlock += '      <div class="message-from-data">' + item.message + '</div>';
         htmlBlock += '    </div>';
