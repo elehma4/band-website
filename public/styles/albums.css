@@ -35,7 +35,7 @@
     overflow-y: scroll;
 }
 .albumContent::-webkit-scrollbar {
-    width: 1px;
+    width: 0px;
 }
 .summary{
     font-size: 12px;
