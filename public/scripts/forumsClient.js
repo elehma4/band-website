@@ -36,12 +36,12 @@ const updateFeedback = (messagesArr) => {
 
     messagesArr.forEach((item, index) => {
 
-        htmlBlock += '    <div class="messages-from-forums">';
+        htmlBlock += `    <div class="messages-from-forums">`;
         htmlBlock += '      <div class="name-and-title">';
         htmlBlock += '        <div class="name-from-data">' + item.name + '</div>';
         htmlBlock += '        <div class="separator"> - </div>';
         htmlBlock += '        <div class="title-from-data">' + item.title + '</div>';
-        htmlBlock += '      <div class="close-btn">&times;</div>';
+        htmlBlock += `      <div class="close-btn" id="${index}">&times;</div>`;
         htmlBlock += '      </div>';
         htmlBlock += '      <div class="message-from-data">' + item.message + '</div>';
         htmlBlock += '    </div>';
@@ -59,8 +59,41 @@ const displayMessages = async () => {
         let messages = await result.json();
         updateFeedback(messages)
     }
-    catch{
-
+    catch(error){
+        console.error(error);
     }
 }
 displayMessages()
+
+let deleteMessage = async (id) => {
+    try{
+        let indexObj = {index: id}
+        let result = await fetch(`/api/${id}`, {
+            method: 'delete',
+            headers: {'Content-type': 'application/json; charset=UTF-8'},
+            body: JSON.stringify(indexObj)
+        })
+        let messages = await result.json()
+    }
+    catch(error){
+        console.error(error);
+    }
+}
+
+let feedbackMessages = document.querySelector('.messages-data')
+feedbackMessages.addEventListener('click', async (e) => {
+    console.log(e)
+    try{
+        let closeButton = e.target
+        console.log(e.target);
+        let index = closeButton.getAttribute('id') //find target w/ id
+        console.log(index);
+        if(index !== null){
+            deleteMessage(index);
+            displayMessages()
+        }
+    }
+    catch(error){
+        console.error(error);
+    }
+})
