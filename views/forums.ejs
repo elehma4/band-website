@@ -48,7 +48,7 @@
 
           <div class="content-main">
 
-            <div class="forum-form">
+            <form class="forum-form">
               <h2 class="forums-title">Community Forums</h2>
                 <h3 class="message-form-title">Message Form:</h3>
                 <div class="message-form">
@@ -59,17 +59,28 @@
                   <input name="title" type="text" class="title-input" id="message-form-title" placeholder="Title of your feedback">
                   
                   <label for="message-form-message">Message</label>
-                  <textarea name="message" type="text" placeholder="Enter your message" class="message-input" id="message-form-message" rows="6"></textarea>
+                  <textarea name="message" type="text" placeholder="Enter your message" class="message-input" id="message-form-message" rows="6" maxlength="333"></textarea>
                   <button type="submit" class="submit-btn">Submit</button>
-
                 </div>
-
-            </div>
+              </form>
 
             <div class="forum-messages">
                 <h3 class="messages-title">Messages:</h3>
                 <div class="messages-data">
-
+                    <!-- <div class="messages-from-forums">
+                      <div class="name-and-title">
+                        <div class="name-from-data">
+                          Ethan
+                        </div>
+                         - 
+                        <div class="title-from-data">
+                          First Message
+                        </div>
+                      </div>
+                      <div class="message-from-data">
+                        This message is brought to you by EJS.
+                      </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -82,6 +93,6 @@
         </footer>
         <!-- End of Footer -->
 
-    
+    <script src="/scripts/forumsClient.js"></script>
 </body>
 </html>

@@ -94,3 +94,24 @@
     cursor: pointer;
     background-color: #FD6C3D;
 }
+.messages-from-forums{
+    font-size: 15px;
+    color: white;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    margin: 5px 7px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.name-and-title{
+    padding: 3px 7px 0px 7px;
+    display: flex;
+    color: #43B0F1;
+}
+.name-from-data{
+    margin-right: 5px;
+}
+.title-from-data{
+    margin-left: 5px;
+}
+.message-from-data{
+    padding: 1px 7px;
+}
