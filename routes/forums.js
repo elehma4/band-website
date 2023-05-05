@@ -33,6 +33,10 @@ router.delete('/api/:index', (req, res) => {
 
     let {index} = req.params;
 
+    console.log(`36:`, index);
+
+    console.log(`38:`, messages);
+
     if(messages.length > 0 && index !== ''){ //make sure index isn't empty & messages array
 
         messages.splice(index, 1)

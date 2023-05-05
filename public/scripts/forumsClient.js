@@ -32,6 +32,8 @@ form.addEventListener('submit', async (e) => {
 
 const updateFeedback = (messagesArr) => {
 
+    console.log(messagesArr);
+
     let htmlBlock = '';
 
     messagesArr.forEach((item, index) => {
@@ -55,8 +57,9 @@ const updateFeedback = (messagesArr) => {
 
 const displayMessages = async () => {
     try{
-        let result = await fetch('/api');
+        let result = await fetch('/api'); //breaking
         let messages = await result.json();
+        console.log(messages);
         updateFeedback(messages)
     }
     catch(error){
@@ -74,6 +77,7 @@ let deleteMessage = async (id) => {
             body: JSON.stringify(indexObj)
         })
         let messages = await result.json()
+        updateFeedback(messages)
     }
     catch(error){
         console.error(error);
@@ -89,6 +93,7 @@ feedbackMessages.addEventListener('click', async (e) => {
         let index = closeButton.getAttribute('id') //find target w/ id
         console.log(index);
         if(index !== null && index !== ''){
+            console.log(`inside if statement`);
             deleteMessage(index);
             displayMessages()
         }
