@@ -88,7 +88,7 @@ feedbackMessages.addEventListener('click', async (e) => {
         console.log(e.target);
         let index = closeButton.getAttribute('id') //find target w/ id
         console.log(index);
-        if(index !== null){
+        if(index !== null && index !== ''){
             deleteMessage(index);
             displayMessages()
         }

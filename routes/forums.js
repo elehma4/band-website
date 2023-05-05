@@ -33,13 +33,18 @@ router.delete('/api/:index', (req, res) => {
 
     let {index} = req.params;
 
-    messages.splice(index, 1)
+    if(messages.length > 0 && index !== ''){ //make sure index isn't empty & messages array
 
-    fs.writeFile('data/forums.json', JSON.stringify(messages), 'utf8', err=>{
-        if(err){
-            res.status(444).send(err)
-        }
-    })
+        messages.splice(index, 1)
+
+        fs.writeFile('data/forums.json', JSON.stringify(messages), 'utf8', err=>{
+            if(err){
+                res.status(444).send(err)
+            }
+        })
+
+    }
+
     // send back all messages w/ new message
     res.json(messages)
 })
