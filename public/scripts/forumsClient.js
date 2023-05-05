@@ -63,7 +63,8 @@ const displayMessages = async () => {
         updateFeedback(messages)
     }
     catch(error){
-        console.error(error);
+        console.log(error.message);
+        // console.error(error);
     }
 }
 displayMessages()
