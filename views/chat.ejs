@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <title>ODESZA</title>
+    <link rel="icon" href="/images/odesza-browser-icon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/chat.css">
+
+</head>
+<body>
+
+    <div class="container-fluid fullView">
+
+        <div class="bg-img"></div>
+
+        <!-- navbar -->
+        <%- include('partials/header.ejs') %> 
+
+        <!-- Content -->
+
+        <div class="content-main">
+
+            <div class="chat-messages">
+                <h3 class="chat-title">Community Chat<img src="/images/chatIcon.png" alt="" class="chatIcon"></h3>
+                <div class="chat-data">
+                    <!-- messages from chat -->
+                </div>
+            </div>
+
+            <form class="chat-form">
+                <label for="chat-form-name">Name</label>
+                <input name="name" type="text" class="name-input" id="chat-form-name" placeholder="Enter your name">
+                
+                <label for="chat-form-message">Message</label>
+                <textarea name="message" type="text" placeholder="Enter your message" class="message-input" id="chat-form-message" rows="2" maxlength="333"></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+
+        </div>
+
+        <!-- footer -->
+        <%- include('partials/footer.ejs') %> 
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/scripts/chatClient.js"></script>
+
+</body>
+
+
+</html>
