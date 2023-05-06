@@ -132,3 +132,65 @@
 .close-btn:hover{
     cursor: pointer;
 }
+@media only screen and (max-width: 660px){
+    .forum-messages{
+        width: 47%;
+    }
+    .forum-form{
+        width: 47%;
+    }
+    .name-input{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .content-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .forum-form{
+        height: 43%;
+        width: 67%;
+        flex-direction: row;
+        margin-bottom: 47px;
+    }
+    .forums-title{
+        display: none;
+    }
+    .forum-messages{
+        width: 80%;
+        height: 20%;
+        font-size: 12px;
+    }
+    #message-form-name{
+        font-size: 12px;
+    }
+    #message-form-title{
+        font-size: 12px;
+    }
+    #message-form-message{
+        font-size: 12px;
+    }
+    .forums-title{
+        display: none;
+    }
+    .submit-btn{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-height: 753px){
+    .forums-title{
+        display: none;
+    }
+    .forum-form{
+        margin-bottom: 97px;
+    }
+    .forum-messages{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-height: 630px){ 
+    .message-form-title{
+        display: none;
+    }
+}

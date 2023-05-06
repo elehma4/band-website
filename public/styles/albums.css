@@ -42,3 +42,47 @@
     color: white;
     font-family: 'Konkhmer Sleokchher', cursive;
 }
+@media only screen and (max-width: 1100px){
+    .albumcovers{
+        width: 247px;
+        height: 247px;
+    }
+    .albumContent{
+        height: 237px;
+    }
+}
+@media only screen and (max-width: 880px){
+    .albumcovers{
+        width: 200px;
+        height: 200px;
+    }
+    .albums{
+        display: flex;
+        flex-direction: column;
+        height: 39%
+    }
+    .albumContent{
+        margin: 0px;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 505px){
+    .albumcovers{
+        width: 150px;
+        height: 150px;
+    }
+    .albums{
+        display: flex;
+        flex-direction: column;
+        height: 41%
+    }
+    .albumContent{
+        margin: 0px;
+        width: 80%;
+        height: 120px;
+        font-size: 10px;
+    }
+    .summary{
+        font-size: 10px;
+    }
+}

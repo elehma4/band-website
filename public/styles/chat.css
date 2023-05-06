@@ -100,3 +100,27 @@
 .message-from-data{
     padding: 1px 11px;
 }
+@media only screen and (max-width: 1100px){
+    .chat-messages{
+        width: 50%;
+    }
+    .chat-form{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .chat-messages{
+        width: 67%;
+    }
+    .chat-form{
+        width: 67%;
+    }
+}
+@media only screen and (max-width: 550px){
+    .chat-messages{
+        width: 80%;
+    }
+    .chat-form{
+        width: 80%;
+    }
+}
