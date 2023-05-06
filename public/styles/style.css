@@ -42,12 +42,77 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+@media only screen and (max-width: 820px){
+    .navbar-nav{
+        width: 47%;
+    }
+}
+@media only screen and (max-width: 620px){
+    .navbar-nav{
+        width: 57%;
+        right: 17px;
+    }
+    .nav-logo {
+        width: 150px;
+    }
+    .nav{
+        height: 59px;
+    }
+}
 .active{
     color: white;
     font-size: 17px;
     text-decoration: none;
     font-family: 'Konkhmer Sleokchher', cursive;
     text-transform: uppercase;
+}
+@media only screen and (max-width: 500px){
+    .navbar-nav{
+        width: 57%;
+        right: 17px;
+    }
+    .active{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .navbar-nav{
+        width: 57%;
+        right: 17px;
+    }
+    .nav-logo {
+        width: 125px;
+    }
+    .nav{
+        height: 49px;
+    }
+    .active{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 370px){
+    .active{
+        font-size: 11px;
+    }
+    .navbar-nav{
+        width: 53%;
+        right: 3px;
+    }
+}
+@media only screen and (max-width: 300px){
+    .active{
+        font-size: 10px;
+    }
+    .navbar-nav{
+        width: 53%;
+        right: 3px;
+    }
+    .nav-logo {
+        width: 100px;
+    }
+    .nav{
+        height: 39px;
+    }
 }
 .footer{
     width: 100%;
